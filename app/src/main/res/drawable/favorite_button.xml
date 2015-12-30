@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true"  >
+        <shape>
+            <solid android:color="#18a3d9"/>
+
+        </shape>
+
+    </item>
+    <item android:state_pressed="false" >
+
+        <bitmap android:src="@drawable/ic_bookmark_white_48dp">
+
+        </bitmap>
+    </item>
+</selector>

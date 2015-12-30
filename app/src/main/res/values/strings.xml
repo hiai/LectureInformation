@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name" tools:ignore="MissingTranslation">Freshapp</string>
+    <string name="hello_world" tools:ignore="MissingTranslation">Hello world!</string>
+    <string name="action_settings" tools:ignore="MissingTranslation">Settings</string>
+    <string name="title_activity_content" tools:ignore="MissingTranslation">Content</string>
+    <string name="action_github" tools:ignore="MissingTranslation">Github</string>
+    <string name="start_activity" tools:ignore="MissingTranslation">Start new activity!</string>
+    <string name="finish_activity" tools:ignore="MissingTranslation">Finish Activity</string>
+    <string name="key_tracking_mode" tools:ignore="MissingTranslation">key_tracking_mode</string>
+    <string name="tracking_mode_left" tools:ignore="MissingTranslation">Left</string>
+    <string name="tracking_mode_right" tools:ignore="MissingTranslation">Right</string>
+    <string name="tracking_mode_bottom" tools:ignore="MissingTranslation">Bottom</string>
+    <string name="tracking_mode_all" tools:ignore="MissingTranslation">All</string>
+    <string name="title_activity_swip_back__content" tools:ignore="MissingTranslation">SwipBack_Content</string>
+    <string name="title_activity_init_" tools:ignore="MissingTranslation">Init_Activity</string>
+    <string name="title_activity_login" tools:ignore="MissingTranslation">login</string>
+    <string name="title_activity_set_password_" tools:ignore="MissingTranslation">setPassword_Activity</string>
+    <string name="title_activity_test" tools:ignore="MissingTranslation">test</string>
+    <string name="title_activity_favorite_" tools:ignore="MissingTranslation">Favorite_Activity</string>
+    <string name="title_activity_user" tools:ignore="MissingTranslation">UserActivity</string>
+
+</resources>

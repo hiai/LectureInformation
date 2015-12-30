@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+    <TextView
+        android:layout_width="wrap_content"
+        android:paddingTop="2dp"
+        android:layout_height="45dp"
+        android:textSize="25sp"
+        android:text="内容"
+        android:layout_gravity="center_horizontal"
+         android:textColor="#ffffff"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="收藏"
+        android:paddingTop="10dp"
+        android:textSize="20sp"
+        android:id="@+id/favorite_view"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toLeftOf="@+id/favorite" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        android:id="@+id/favorite"
+        android:onClick="do_favorite"
+        android:background="@drawable/favorite_button"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#E0E0E0"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/textView2"></TextView>
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.smsdemo.login"
+    android:background="#e1dac8"
+ >
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/login_password"
+        android:layout_above="@+id/change_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffff"
+        android:paddingLeft="20dp"
+        android:textColorHint="#c8c8c8"
+        android:textColor="#393C3E"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/login_phonenumber"
+        android:layout_above="@+id/login_password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#ffffff"
+        android:paddingLeft="20dp"
+        android:textColorHint="#c8c8c8"
+        android:textColor="#393C3E"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button_login"
+
+          android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="109dp"
+        android:onClick="verrify"
+        android:textSize="30sp"
+        android:background="@drawable/login_button"
+        android:textColor="#e1dac9"/>
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+
+        android:id="@+id/change_button"
+        android:text="验证码登陆"
+        android:onClick="code_login"
+        android:layout_alignTop="@+id/toSign_up"
+        android:layout_alignRight="@+id/login_password"
+        android:layout_alignEnd="@+id/login_password"
+        android:textColor="#1db9f2"
+        android:background="#00000000"/>
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:id="@+id/toSign_up"
+        android:text="手机快速注册"
+        android:layout_centerVertical="true"
+        android:textColor="#1db9f2"
+        android:onClick="sign_up"
+        android:background="#00000000"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="忘记密码？重设密码"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="setpassword_again"
+        android:textColor="#1db9f2"
+        android:background="#00000000"
+        />
+
+</RelativeLayout>

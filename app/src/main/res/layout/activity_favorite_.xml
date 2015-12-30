@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:r="http://schemas.android.com/apk/res-auto"
+        android:background="#E7E7E7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        tools:context=".MainActivity">
+        <com.nineoldandroids.ProgressView
+            android:id="@+id/progress2"
+
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#00000000"
+
+
+
+            r:phase="2.0"
+            r:duration="2000"
+            r:fadeFactor="10.0"
+            r:waitRadius="30dp"
+            r:arrowLength="16dp"
+            r:arrowHeight="18dp"
+            r:strokeWidth="2.0"
+            r:strokeColor="#ffffffff"
+            />
+
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/fresh2"
+            android:cacheColorHint="#00000000"
+            android:divider="#19000000"
+            android:dividerHeight="0dp"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="false"
+            android:headerDividersEnabled="false"
+            android:footerDividersEnabled="false"
+            android:smoothScrollbar="true"
+            android:background="#E7E7E7"
+            />
+
+
+
+    </LinearLayout>
+
+    <com.example.administrator.freshapp.iRibbonMenuUtil.RibbonMenuView
+        android:id="@+id/ribbonMenuView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>
